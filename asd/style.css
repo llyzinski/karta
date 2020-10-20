@@ -1,0 +1,14 @@
+.container{
+    height: 100vh;
+    background-color: teal;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.karta{
+    height: 600px;
+    width: 400px;
+    background-color: tomato;
+    
+}
