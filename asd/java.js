@@ -9,7 +9,7 @@ const follow={
 
     
     btn2:function(){
-        this.numer.innerHTML=parseInt(this.numer.innerHTML)-1;
+        if (this.numer.innerHTML > 0) this.numer.innerHTML=parseInt(this.numer.innerHTML)-1;
     },
 
     init:function(){
