@@ -148,11 +148,15 @@ h2.imie {
     padding: 0 2rem 0.5rem;
     justify-content: center;
     margin-top: 30px;
+    font-weight: bold;
+    font-size: 1.5em;
 }
 
 .imie2{
-    color: gray;
-    font-size: bold;
+    color: #afafaf;
+    font-size: 0.85rem;
+    font-weight: normal;
+    
 }
 
 .blok1{
@@ -184,25 +188,35 @@ h2.imie {
 }
 
 .blok1:hover{
-    background-color:#CCB6B1;
+    background-color:#E6E6E6  ;
     transition: 0.5s;
     cursor: pointer;
 }
 
 .blok2:hover{
-    background-color:#CCB6B1;
+    background-color:#E6E6E6  ;
     transition: 0.5s;
     cursor: pointer;
 }
 
 .tekst1{
-    color: blue;
+    color: #1c9eff;
     font-size:150%;
+    font-weight: bold;
+    transform: scaleY(1.3);
+    transition: color 100ms ease-in-ou
 }
 
 .tekst2{
-    color: gray;
-    font-size: bold;
+    color: #afafaf;
+    font-size: 0.85rem;
+    font-weight: normal;
+}
+
+.tekst3{
+    font-family: sans-serif;
+    font-size: 100%;
+    font-weight: bold;
 }
 .tekst4{
     margin-left: 20px;
@@ -212,21 +226,23 @@ h2.imie {
 }
 
 .przycisk{
-    font-family: Montserrat, sans-serif;
+    font-family: sans-serif;
+    font-size: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 50px;
     width: 300px;
-    background-color: #efb10a;
-    border-radius: 20px 20px 20px 20px;
+    background-color: #1cbfff;
+    border-radius: 40px 40px 40px 40px;
     margin: 10px;
     transition: 0.5s;
     
 }
 
 .przycisk:hover{
-    background-color: orange;
+    background-color: #FFC427;
     transform: scale(1.1);
     cursor: pointer;
+    
 }
