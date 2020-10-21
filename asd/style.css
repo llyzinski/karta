@@ -10,11 +10,12 @@
 }
 
 .karta0{
-    height: 600px;
+    height: 650px;
     width:400px;
     box-shadow: black 5px;
     box-shadow: -1px 2px 17px 10px rgba(0,0,0,0.50);
     border-radius: 20px 20px 20px 20px;
+    
     
 }
 
@@ -63,7 +64,7 @@
 }
 
 .karta4{
-    height: 100px;
+    height: 150px;
     width: 400px;
     background-color: beige;
     border-radius: 0px 0px 0px 0px;
@@ -71,6 +72,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 .karta5{
@@ -209,6 +211,7 @@ h2.imie {
     width: 300px;
     background-color: #efb10a;
     border-radius: 20px 20px 20px 20px;
+    margin: 10px;
 }
 
 .przycisk:hover{
