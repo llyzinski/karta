@@ -84,6 +84,7 @@
     display: flex;
     align-items: flex-start;
     justify-content: center;
+    font-family: Montserrat, sans-serif;
 }
 
 .obrazek{
@@ -149,6 +150,7 @@ h2.imie {
 
 .imie2{
     color: gray;
+    font-size: bold;
 }
 
 .blok1{
@@ -161,6 +163,7 @@ h2.imie {
     flex-direction: column;
     align-items: center;
     border-radius: 10px 10px 10px 10px;
+    font-family: Montserrat, sans-serif;
 }
 
 .blok2{
@@ -173,6 +176,7 @@ h2.imie {
     flex-direction: column;
     align-items: center;
     border-radius: 10px 10px 10px 10px;
+    font-family: Montserrat, sans-serif;
 }
 
 .blok1:hover{
@@ -194,12 +198,13 @@ h2.imie {
 
 .tekst2{
     color: gray;
+    font-size: bold;
 }
 .tekst4{
     margin-left: 20px;
     margin-right: 20px;
     font-size:130%;
-    
+    font-style: oblique;
 }
 
 .przycisk{
@@ -212,6 +217,7 @@ h2.imie {
     background-color: #efb10a;
     border-radius: 20px 20px 20px 20px;
     margin: 10px;
+    
 }
 
 .przycisk:hover{
